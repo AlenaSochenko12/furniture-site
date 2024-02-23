@@ -1,0 +1,185 @@
+@media (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 786px/2);
+        padding-right: calc(50% - 786px/2);
+    }
+
+    .for {
+        &_item {
+            height: 268px;
+        }
+    }
+    .product {
+        &:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 5px #ccc;
+        }
+    }
+    .product_content {
+        column-gap: 28px;
+        row-gap: 38px;
+    }
+    .logo2 {
+        display: none;
+    }
+    .cart__form {
+        width: 376px;
+        grid-column: 1;
+        grid-row: 3;
+        &__button {
+            margin-left: 43px;
+        }
+    }
+    .menu_contacts {
+        display: flex;
+        gap: 130px;
+    }
+    .btns_corz {
+        &:hover {
+            background-color: #000;
+            color: #fff;
+        }
+    }
+    .btns_corz2 {
+        border: 1px solid #FFF;
+        background-color: #000;
+        color: #FFF;
+    }
+    .cart {
+        &__content {
+            width: 786px;
+        }
+        &__link-box {
+            &_link {
+                &:hover {
+                    color: #e39d5c;
+                    text-decoration-line: underline #a55e1b;
+                }
+            }
+        }
+        &__form {
+            &__button {
+                margin-left: 43px;
+                &:hover {
+                    animation: myAnim 1.5s ease 0s 1 normal forwards;
+                    color: #fff;
+                    background-color: #000;
+                }
+            }
+        }
+    }
+    .menu {
+        &:hover {
+            color: #ccc;
+            -webkit-text-decoration: underline #ff6a7c;
+            text-decoration: underline #14aad8;
+        }
+    }
+    .catalog {
+        &:hover {
+            color: #888;
+            text-decoration: underline #14aad8;
+        }
+    }
+    .catalog2 {
+        &:hover {
+            color: #888;
+            text-decoration: underline #14aad8;
+        }
+    }
+    .menufooter {
+        &:hover {
+            color: #ccc;
+            text-decoration: underline #14aad8;
+        }
+    }
+    .button {
+        &:hover {
+            background-color: #000;
+            color: #fff;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 833px) {
+    .center {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .product {
+        width: 378px;
+        column-gap: 28px;
+        row-gap: 30px;
+        &:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 5px #ccc;
+        }
+    }
+    .product_content {
+        margin-bottom: 64px;
+    }
+    .menu_contacts {
+        display: flex;
+        gap: 130px;
+    }
+    .cart {
+        &__content {
+            width: 786px;
+        }
+        &__link-box {
+            &_link {
+                &:hover {
+                    color: #e39d5c;
+                    text-decoration-line: underline #a55e1b;
+                }
+            }
+        }
+        &__form {
+            &__button {
+                margin-left: 43px;
+                &:hover {
+                    animation: myAnim 1.5s ease 0s 1 normal forwards;
+                    color: #fff;
+                    background-color: #000;
+                }
+            }
+        }
+    }
+    .menu {
+        &:hover {
+            color: #ccc;
+            -webkit-text-decoration: underline #ff6a7c;
+            text-decoration: underline #14aad8;
+        }
+    }
+    .catalog {
+        &:hover {
+            color: #888;
+            text-decoration: underline #14aad8;
+        }
+    }
+    .catalog2 {
+        &:hover {
+            color: #888;
+            text-decoration: underline #14aad8;
+        }
+    }
+    .menufooter {
+        &:hover {
+            color: #ccc;
+            text-decoration: underline #14aad8;
+        }
+    }
+    .button {
+        &:hover {
+            background-color: #000;
+            color: #fff;
+        }
+    }
+    .btns_corz {
+        &:hover {
+            background-color: #000;
+            color: #fff;
+        }
+    }
+}

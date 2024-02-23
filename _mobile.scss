@@ -1,0 +1,210 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        padding-top: 32px;
+        &_input {
+            display: none;
+        }
+        border: none;
+    }
+    .menu {
+        display: none;
+        &-mob {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+        &:hover {
+            color: #ccc;
+            text-decoration: underline #14aad8;
+        }
+    }
+    .logo {
+        &_img {
+            width: 99px;
+        }
+    }
+    .title {
+        text-align: center;
+        font-size: 48px;
+        line-height: normal;
+    }
+    .subtitle {
+        text-align: center;
+        font-size: 16px;
+    }
+    .catalog {
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        &:hover {
+            color: #888;
+            text-decoration: underline #14aad8;
+        }
+    }
+    .title2 {
+        font-size: 24px;
+    }
+    .for {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+        &_item {
+            grid-column: 1 / -1;
+            height: 375px;
+            &_big {
+                height: 244px;
+            }
+        }
+    }
+    .product_box {
+        margin-top: 32px;
+    }
+    .product {
+        width: 342px;
+        &:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 5px #ccc;
+        }
+    }
+    .product_name {
+        font-size: 18px;
+    }
+    .price {
+        font-size: 18px;
+    }
+    .price2 {
+        font-size: 18px;
+    }
+    .product_content {
+        row-gap: 32px;
+        margin-bottom: 36px;
+    }
+    .catalog2 {
+        margin-top: 36px;
+        margin-bottom: 32px;
+        &:hover {
+            color: #888;
+            text-decoration: underline #14aad8;
+        }
+    }        
+    .menu_contacts {
+        display: flex;
+        gap: 100px;
+    }
+    .form_footer {
+        display: flex;
+        width: 268px;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer {
+        justify-content: center;
+        gap: 32px 105px;
+    }
+    .title_catalog {
+        text-align: center;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 82px;
+    }
+    .page_catalog {
+        display: flex;
+        flex-direction: column;
+        margin-top: 32px;
+    }
+    .page {
+        margin-bottom: 16px;
+    }
+    .catalog-catalog {
+        display: block;
+        color: #000;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .h4_corzina {
+        font-size: 18px;
+    }
+    .text_h4_corzina {
+        font-size: 12px;
+    }
+    .price_corzina {
+        font-size: 12px;
+    }
+    .btns_corz {
+        width: 166px;
+        text-align: center;
+        white-space: nowrap;
+        font-size: 12px;
+        line-height: normal;
+    }
+    .btns_corz1 {
+        padding-left: 25px;
+        padding-right: 27px;
+        &:hover {
+            background-color: #000;
+            color: #fff;
+            transform: scale(1.05);
+        }
+    }
+    .btns_corz2 {
+        padding-left: 20px;
+        padding-right: 27px;
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+    .buttons_corzina {
+        width: 343px;
+        margin-top: 0px;
+    }
+    .cart {
+        margin-top: 92px;
+        &__name-box {
+            display: none;
+        }
+        &__img {
+            display: none;
+        }
+        &__content {
+            width: 343px;
+        }
+        &__form {
+            width: 343px;
+            &__button {
+                margin-left: 26px;
+                &:hover {
+                    animation: myAnim 1.5s ease 0s 1 normal forwards;
+                    color: #fff;
+                    background-color: #000;
+                }
+            }
+        }
+        &__link-box {
+            &_link {
+                &:hover {
+                    color: #e39d5c;
+                    text-decoration-line: underline #a55e1b;
+                }
+            }
+        }
+    }
+    .menufooter {
+        &:hover {
+            color: #ccc;
+            text-decoration: underline #14aad8;
+        }
+    }
+    .button {
+        &:hover {
+            background-color: #000;
+            color: #fff;
+        }
+    }
+}
